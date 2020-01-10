@@ -1,0 +1,13 @@
+{
+  "kernel": {
+    "name": "GaltsGulch",
+    "version": "v1.110",
+    "link": "https://github.com/RealJohnGalt/GaltsGulch-Releases/raw/master/GaltsGulch.V1.110.zip",
+    "changelog_url": "https://github.com/RealJohnGalt/GaltsGulch-Releases/blob/master/changelog.md",
+    "date": "2020-01-9",
+    "sha1": "28e995f60b969ba603f1b41d31f8234461d78292"
+  },
+  "support": {
+    "link": "https://t.me/pixel3a"
+  }
+}
