@@ -1,5 +1,9 @@
 # Changelog
 
+**v1.111**
+
+* Merged back in upstream linux kernel, updated to 4.9.210 (thanks to Shag for pointing out the revert for the "youtube issue")
+
 **v1.110**
 
 * Reverted back to 4.9.206 until the upstream pelt issue for us is discovered and fixed on our part. This fixes the video playback panic/reboot.
