@@ -1,6 +1,6 @@
 # Changelog
 
-**v1.111**
+**v1.112**
 
  * Discontinued dimmer driver variant (json now points to standard build).
  * Merged in 4.9.212
