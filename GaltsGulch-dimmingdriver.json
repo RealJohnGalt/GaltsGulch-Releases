@@ -1,11 +1,11 @@
 {
   "kernel": {
-    "name": "GaltsGulch-dimming-driver",
-    "version": "v1.111",
-    "link": "https://github.com/RealJohnGalt/GaltsGulch-Releases/raw/master/GaltsGulch.V1.111-dimming.zip",
+    "name": "GaltsGulch",
+    "version": "v1.112",
+    "link": "https://github.com/RealJohnGalt/GaltsGulch-Releases/raw/master/GaltsGulch.V1.112.zip",
     "changelog_url": "https://github.com/RealJohnGalt/GaltsGulch-Releases/blob/master/changelog.md",
-    "date": "2020-01-15",
-    "sha1": "f2df0ec39dbe24d7c380c9f15ff87d063d5bb33e"
+    "date": "2020-02-03",
+    "sha1": "8367d3172fde2ceee3851bb0a19be5515b9f89bc"
   },
   "support": {
     "link": "https://t.me/pixel3a"

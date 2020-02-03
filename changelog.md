@@ -2,6 +2,11 @@
 
 **v1.111**
 
+ * Discontinued dimmer driver variant (json now points to standard build).
+ * Merged in 4.9.212
+
+**v1.111**
+
 * Merged back in upstream linux kernel, updated to 4.9.210 (thanks to Shag for pointing out the revert for the "youtube issue")
 
 **v1.110**
