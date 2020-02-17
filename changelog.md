@@ -1,5 +1,9 @@
 # Changelog
 
+**v1.114**
+ * Merged in 4.9.214.
+ * Brought back dimmer driver variant.
+
 **v1.113**
 
  * Merged in Feb patch.
