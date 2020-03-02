@@ -1,5 +1,9 @@
 # Changelog
 
+**v1.116**
+ * Merged in 4.9.215.
+ * Updated to latest AnyKernel3, includes addon.d-v2 support.
+
 **v1.115**
  * LOS Support: Now should support any rom available for bonito/sargo.
  * Switch timer to 1000hz: There seems to be a kernel bug around 300hz. We dropped to 250hz from 300hz awhile ago, because 250hz decreased overhead and improved battery life. 1000hz is actually lower overhead than 250hz.

@@ -1,11 +1,11 @@
 {
   "kernel": {
     "name": "GaltsGulch",
-    "version": "v1.115",
-    "link": "https://github.com/RealJohnGalt/GaltsGulch-Releases/raw/master/GaltsGulch.V1.115.zip",
+    "version": "v1.116",
+    "link": "https://github.com/RealJohnGalt/GaltsGulch-Releases/raw/master/GaltsGulch.V1.116.zip",
     "changelog_url": "https://raw.githubusercontent.com/RealJohnGalt/GaltsGulch-Releases/master/changelog.md",
-    "date": "2020-02-20",
-    "sha1": "67a3cbdf670f0ad589e45b9d78096b62f1d5453d"
+    "date": "2020-03-02",
+    "sha1": "e9f60d2e390ef619c8c2bc676f869c810efe118f"
   },
   "support": {
     "link": "https://t.me/pixel3a"
