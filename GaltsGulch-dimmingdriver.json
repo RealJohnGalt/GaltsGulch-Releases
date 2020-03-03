@@ -1,11 +1,11 @@
 {
   "kernel": {
     "name": "GaltsGulch",
-    "version": "v1.116",
-    "link": "https://github.com/RealJohnGalt/GaltsGulch-Releases/raw/master/GaltsGulch.V1.116-dimming.zip",
+    "version": "v1.117",
+    "link": "https://github.com/RealJohnGalt/GaltsGulch-Releases/raw/master/GaltsGulch.V1.117-dimming.zip",
     "changelog_url": "https://raw.githubusercontent.com/RealJohnGalt/GaltsGulch-Releases/master/changelog.md",
-    "date": "2020-03-02",
-    "sha1": "b7562bd804a251d3b08ce41eb401a796c7c40923"
+    "date": "2020-03-03",
+    "sha1": "bca3df624321bb049469d74ee3ae375bb2c01c6a"
   },
   "support": {
     "link": "https://t.me/pixel3a"
