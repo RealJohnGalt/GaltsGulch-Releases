@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.118**
+ * Some overhead optimizations by kdrag0n and sultanxda.
+ * Fixes to build with current clang 11 (master). And built with current clang 11.
+ * Enabled polly optimizations.
+
 **v1.117**
  * Merged the large March release.
 
