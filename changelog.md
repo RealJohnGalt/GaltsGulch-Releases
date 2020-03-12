@@ -1,6 +1,9 @@
 # Changelog
 
 **v1.118**
+ * Merged 4.9.216.
+
+**v1.118**
  * Some overhead optimizations by kdrag0n and sultanxda.
  * Fixes to build with current clang 11 (master). And built with current clang 11.
  * Enabled polly optimizations.
