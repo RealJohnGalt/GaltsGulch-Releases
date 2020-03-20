@@ -1,6 +1,11 @@
 # Changelog
 
-**v1.118**
+**v1.120**
+ * Merged 4.9.217.
+ * Updated clang 11 master build.
+ * Better implemented Polly optimizations.
+
+**v1.119**
  * Merged 4.9.216.
 
 **v1.118**
