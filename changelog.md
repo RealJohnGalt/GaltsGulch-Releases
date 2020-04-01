@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.121**
+ * Updated clang 11 master build.
+ * Dropped some binutils tools in favor of llvm tools.
+ * Optimizing specifically for little cluster now (big cluster doesn't need the help). On clang we can only optimize for a single target unlike gcc.
+
 **v1.120**
  * Merged 4.9.217.
  * Updated clang 11 master build.
