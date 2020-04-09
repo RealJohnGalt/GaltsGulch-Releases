@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.122**
+ * Updated clang 11 master build.
+ * Merged in linux 4.9.218.
+ * Merged in new April security patch.
+
 **v1.121**
  * Updated clang 11 master build.
  * Dropped some binutils tools in favor of llvm tools.
