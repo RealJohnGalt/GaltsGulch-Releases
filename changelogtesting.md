@@ -1,5 +1,8 @@
 # Changelog
 
+**v1.0b4a11**
+* Various optimizations and cleanups.
+
 **v1.0b4a4**
 * Bring in klapse.
 * Display: ensure ulps is always on, and enable partial update with singleroi.
