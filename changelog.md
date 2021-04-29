@@ -1,5 +1,12 @@
 # Changelog
 
+**v1.0b3**
+* Bring back unintentionally forgotten cpuset assist.
+* sched: drop pelt half life to 10ms for interactivity and efficiency.
+* cfq: some optimizations and backports.
+* other small changes.
+* toolchain bump (built today).
+
 **v1.0b2**
 * More s2idle fixes.
 * sched: many backports, including full uclamp bringup.
