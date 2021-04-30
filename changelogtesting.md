@@ -1,5 +1,11 @@
 # Changelog
 
+**v1.0b4a16**
+* More various optimizations over a11.
+* Re enable zram and friends + related backports (6G ram and heavy usage people complained).
+* Revert s2idle: a few users still had wakeup issues.
+* msm thermal simple: tweak battery temp range to make more conservative. Results in better warp charging throughput, and uses the battery less as a heatsink when active.
+
 **v1.0b4a11**
 * Various optimizations and cleanups.
 
