@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.0b4a20**
+* Disable zram, swap, etc again.
+* battery: bring back high resolution info.
+* config: switch back to 80hz timer for efficiency (bt crackling seems to be fixed).
+
 **v1.0b4a16**
 * More various optimizations over a11.
 * Re enable zram and friends + related backports (6G ram and heavy usage people complained).
