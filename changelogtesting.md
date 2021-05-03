@@ -1,23 +1,27 @@
 # Changelog
 
-**v1.0b4a20**
-* Disable zram, swap, etc again.
-* battery: bring back high resolution info.
-* config: switch back to 80hz timer for efficiency (bt crackling seems to be fixed).
+**v1.0b5a1**
+* Makefile: ThinLTO tweaks:
+  * Enable fwhole-program-vtables with ThinLTO for better inlining decisions (0.00489045% binary size decrease).
+  * Set import-instr-limit to 40:
+    * Decreases output size by 10.0308%, and also where measurable performance changes stop occurring. Chromium found 10 was a good limit for performance/binary size, and AOSP found 5 was a good compromise. However we're a kernel and a bit different with more potential to benefit from aggressive inlining.
 
-**v1.0b4a16**
-* More various optimizations over a11.
-* Re enable zram and friends + related backports (6G ram and heavy usage people complained).
-* Revert s2idle: a few users still had wakeup issues.
-* msm thermal simple: tweak battery temp range to make more conservative. Results in better warp charging throughput, and uses the battery less as a heatsink when active.
-
-**v1.0b4a11**
-* Various optimizations and cleanups.
-
-**v1.0b4a4**
+**v1.0b4**
+* Merge new CAF tag LA.UM.9.1.r1-09600-SMxxx0.0 tree wide.
 * Bring in klapse.
 * Display: ensure ulps is always on, and enable partial update with singleroi.
-* Other small changes and optimizations.
+* Revert s2idle: a few users still had wakeup issues.
+* msm thermal simple: tweak battery temp range to make more conservative. Results in better warp charging throughput, and uses the battery less as a heatsink when active.
+* Various optimizations and cleanups.
+* timer: switch to 240hz for better frame cadence (previously 80hz).
+* uclamp: switch to 7 uclamp buckets for improved placement, also needed for possible upcoming device tree changes.
+* sched: revert pelt half life to 24ms due to longer decay assisting jitter.
+* cpuidle: decrease deep idle latency reporting for more deep idle consideration.
+* frequencies: big cluster: introduce lower frequencies.
+* frequencies: prime: bump min freq to a less efficient 2227200 for better jitter, and also better utilization of big cluster low frequencies for better real world power usage.
+* thermal: tweak battery temp range to make more conservative. Results in better warp charging throughput, and uses the battery less as a heatsink when active.
+* thermal: update for new table. 
+* toolchain bump (built today off current llvm master).
 
 **v1.0b3**
 * Bring back unintentionally forgotten cpuset assist.
