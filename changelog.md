@@ -1,5 +1,22 @@
 # Changelog
 
+**v1.0b4**
+* Merge new CAF tag LA.UM.9.1.r1-09600-SMxxx0.0 tree wide.
+* Bring in klapse.
+* Display: ensure ulps is always on, and enable partial update with singleroi.
+* Revert s2idle: a few users still had wakeup issues.
+* msm thermal simple: tweak battery temp range to make more conservative. Results in better warp charging throughput, and uses the battery less as a heatsink when active.
+* Various optimizations and cleanups.
+* timer: switch to 240hz for better frame cadence (previously 80hz).
+* uclamp: switch to 7 uclamp buckets for improved placement, also needed for possible upcoming device tree changes.
+* sched: revert pelt half life to 24ms due to longer decay assisting jitter.
+* cpuidle: decrease deep idle latency reporting for more deep idle consideration.
+* frequencies: big cluster: introduce lower frequencies.
+* frequencies: prime: bump min freq to a less efficient 2227200 for better jitter, and also better utilization of big cluster low frequencies for better real world power usage.
+* thermal: tweak battery temp range to make more conservative. Results in better warp charging throughput, and uses the battery less as a heatsink when active.
+* thermal: update for new table. 
+* toolchain bump (built today off current llvm master). 
+
 **v1.0b3**
 * Bring back unintentionally forgotten cpuset assist.
 * sched: drop pelt half life to 10ms for interactivity and efficiency.
