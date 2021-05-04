@@ -1,5 +1,12 @@
 # Changelog
 
+**v1.0b5a3**
+* sched/uclamp:
+  * More backports.
+  * Make backwards compatible with schedtune/cpusets.
+  * Introduce uclamp assist.
+  * Drop schedtune in favor of uclamp assist.
+
 **v1.0b5a1**
 * Makefile: ThinLTO tweaks:
   * Enable fwhole-program-vtables with ThinLTO for better inlining decisions (0.00489045% binary size decrease).
