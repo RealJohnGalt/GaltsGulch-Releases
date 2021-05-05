@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.0b5a6**
+* sched/fair: revert unintended addition that harmed jitter in recent uclamp changes.
+* Revert long forgotten gpu undervolt.
+* Partially revert cpuidle tweak.
+
 **v1.0b5a3**
 * sched/uclamp:
   * More backports.
