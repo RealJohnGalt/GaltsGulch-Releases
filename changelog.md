@@ -1,5 +1,26 @@
 # Changelog
 
+**v1.0b5**
+* Merge latest ASB (2021-05-05).
+* Fix additional wake issues (reverted s2idle leftovers).
+* Restore iorap support, verified working on YAAP. Helps cold startup launch times. For more info: https://medium.com/androiddevelopers/improving-app-startup-with-i-o-prefetching-62fbdb9c9020
+* Android/binder: some backports.
+* Net/bbr2: some more backports.
+* kernel/sched: uclamp schedtune compatibility cleanup.
+* drm commit ddr boost: slightly bump after additional jitter and jank testing on 7Pro. Big thanks to zero too. Even on 7T this change helped jitter.
+* Revert long forgotten gpu undervolt.
+* Partially revert cpuidle tweak.
+* some cleanup.
+* sched/uclamp:
+  * More backports.
+  * Make backwards compatible with schedtune/cpusets.
+  * Introduce uclamp assist.
+  * Drop schedtune in favor of uclamp assist.
+* Makefile: ThinLTO tweaks:
+  * Enable fwhole-program-vtables with ThinLTO for better inlining decisions (0.00489045% binary size decrease).
+  * Set import-instr-limit to 40:
+  * Decreases output size by 10.0308%, and also where measurable performance changes stop occurring. Chromium found 10 was a good limit for performance/binary size, and AOSP found 5 was a good compromise. However we're a kernel and a bit different with more potential to benefit from aggressive inlining.
+
 **v1.0b4**
 * Merge new CAF tag LA.UM.9.1.r1-09600-SMxxx0.0 tree wide.
 * Bring in klapse.
