@@ -1,5 +1,14 @@
 # Changelog
 
+**v1.0b5a15**
+* Fix additional wake issues (reverted s2idle leftovers).
+* Restore iorap support, verified working on YAAP. Helps cold startup launch times. For more info: https://medium.com/androiddevelopers/improving-app-startup-with-i-o-prefetching-62fbdb9c9020
+* Android/binder: some backports.
+* Net/bbr2: some more backports.
+* kernel/sched: uclamp schedtune compatibility cleanup.
+* drm commit ddr boost: slightly bump after additional jitter and jank testing on 7Pro. Big thanks to zero too. Even on 7T this change helped jitter.
+* some cleanup.
+
 **v1.0b5a6**
 * sched/fair: revert unintended addition that harmed jitter in recent uclamp changes.
 * Revert long forgotten gpu undervolt.
