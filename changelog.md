@@ -1,5 +1,12 @@
 # Changelog
 
+**v1.0b6a2**
+* config: Expand game controller support.
+* security: Initialize everything on the stack with a zero value for security.
+* A few new kerneltoast optimizations:
+  * mm: perform PID map reads on the little cpu cluster. They're not performance sensitive, but can be very costly.
+  * sched: improve code optimization.
+
 **v1.0b5**
 * Merge latest ASB (2021-05-05).
 * Fix additional wake issues (reverted s2idle leftovers).
