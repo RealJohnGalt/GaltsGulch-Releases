@@ -1,5 +1,24 @@
 # Changelog
 
+**v1.0b6**
+* misc: correct a few wakeup hangs, including one potential never hit.
+* wlan: bump to lahaina tags to match yaap oss tags.
+* toolchain: bump to latest llvm master (just built).
+* correct cpu boost freqs.
+* bump ddr bw boost for frame commits after more jitter testing, and 7pro testing.
+* cpuidle: remove another s2idle leftover only causing harm.
+* sched: many backports, add back part 2 for making up/down migrate margins non-configurable.
+* bt: improve performance slightly.
+* adrenotz: revert change that increases scaling on 90hz (at best does nothing, at worst increases jitter and power consumption).
+* fuse: properly port a oneplus optimization + some cleaned up deps to our caf tree.
+* mm: some backported optimizations.
+* treewide: move some non performance sensitive workqueues to power efficient workqueues.
+* scsi/ufs: performance and power improvement.
+* kgsl: adapt a google commit for better nonblocking performance, maintaining high performance kthreads as such.
+* kgsl: backport a locking improvement.
+* affinity: move surfaceflinger to prime:
+  * surfaceflinger and hwcomposer should not be contending with one another. In testing, surfaceflinger was more latency sensitive than hwcomposer. Additionally in various real world testing we always have the capacity necessary for this change. Test: lessens jitter spikes in high contention scenarios.
+
 **v1.0b6a2**
 * config: Expand game controller support.
 * security: Initialize everything on the stack with a zero value for security.
