@@ -1,5 +1,21 @@
 # Changelog
 
+**v1.0b7**
+* toolchain bump (llvm master built today)
+* cpuidle: add back change accidentally reverted during s2idle drop.
+* sched: many backports and placement improvements.
+* sched: introduce rate limit tuning per cluster. Tune for performance and efficiency (synthetic tests have no regressions while more efficient frequencies are used overall).
+* power: usb charging fix from sm8250.
+* kcal: new sde implementation that actually works.
+* many other backports/optimizations.
+* touchscreen: port arter97 optimizations.
+* wireguard: bring fully inline with mainline linux kernel (were 2 months behind).
+* wlan-related submodules: merge LA.UM.9.14.r1-16300-LAHAINA.0 
+* f2fs: rapid gc bringup.
+* exfat: import, enable, and update with upstream.
+* charging: fix regression.
+* fod: merge new changes for yaap and new rom builds. Moves a platform hack to kernel.
+
 **v1.0b6**
 * misc: correct a few wakeup hangs, including one potential never hit.
 * wlan: bump to lahaina tags to match yaap oss tags.
