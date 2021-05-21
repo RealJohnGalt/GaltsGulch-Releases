@@ -2,7 +2,7 @@
 
 **v1.0b7**
 * toolchain bump (llvm master built today).
-* Now not only the kernel with the lowest jank/jitter, also the best efficiency: kill cpu input boost. This only harms jitter for us, along with a major power impact. Especially good to kill given the per-cluster rate limit tuning (mentioned below).
+* Now not only the kernel with the lowest jank/jitter, also the best efficiency: killed cpu input boost. This only harms jitter for our configuration, along with a major power impact. Especially good to kill given the per-cluster rate limit tuning (mentioned below).
 * sched: many backports and placement improvements.
 * sched: introduce rate limit tuning per cluster. Tune for performance and efficiency (synthetic tests have no regressions while more efficient frequencies are used overall).
 * power: usb charging fix from sm8250.
@@ -13,6 +13,8 @@
 * f2fs: rapid gc bringup.
 * exfat: import, enable, and update with upstream.
 * charging: fix regression.
+* lib: new optimized routine backports.
+* lse atomics: remove dynamic alternatives patching for lower overhead since we know we support lse atomics and enable unconditionally.
 * fod: merge new changes for yaap and new rom builds. Moves a platform hack to kernel.
 * wlan: force a power management mode for roms without the change in DT. 
 
