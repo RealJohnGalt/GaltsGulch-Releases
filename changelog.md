@@ -1,5 +1,9 @@
 # Changelog
 
+**v1.0b8**
+* Revisit s2idle.
+* Merge Linux Kernel 4.14.233.
+
 **v1.0b7**
 * toolchain bump (llvm master built today).
 * Now not only the kernel with the lowest jank/jitter, also the best efficiency: killed cpu input boost. This only harms jitter for our configuration, along with a major power impact. Especially good to kill given the per-cluster rate limit tuning (mentioned below).
