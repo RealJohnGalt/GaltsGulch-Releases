@@ -1,5 +1,25 @@
 # Changelog
 
+**v1.0b9**
+* toolchain bump (llvm master built today).
+* kgsl: increase events worker thread priority.
+* kgsl: bring in dependencies for an earlier backport.
+* mm: backports and optimizations.
+* adsprpc: force QoS to silver cores for power savings. According to CAF, this "saves significant power."
+* scsi/ufs: reduce potential for contention.
+* net: some backports.
+* block: various backports.
+* schedutil: backports.
+* debugging: bring in last kmsg support, additionally re enable bug for now.
+* arm64/vdso: compat bringup, with LTO still enabled.
+* uclamp assist: tweak top app for stabilizing jitter and reducing power consumption.
+* net/qrtr: reduce likelihood of missing packets due to sleep (CAF backports).
+* msm geni serial: various CAF backports.
+* page alloc: ensure to boost devfreq if slow path is hit as well.
+* qca-wifi-host-cmn: reduce annoying spam.
+* arm64/lse atomics: backport cleanup.
+* Revert some older async probe changes from google — we need more treewide fixes for these, and the full patchset caused boot issues for guac as well as suspend/resume issues for hdb as well.
+
 **v1.0b8**
 * Revisit s2idle.
 * Merge Linux Kernel 4.14.233.
