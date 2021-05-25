@@ -1,5 +1,12 @@
 # Changelog
 
+**v1.0b10**
+* toolchain bump (llvm master built today).
+* device mapper: backport optimizations. These should theoretically have the largest impact in recovery and fastboot.
+* power: update usb switching charge adapter + peripheral fix.
+* display: revert panel on delay to 120ms from 10ms.
+  * On some devices, panel would wake up before mode was set for FOD, resulting in poor FOD performance.
+
 **v1.0b9**
 * toolchain bump (llvm master built today).
 * kgsl: increase events worker thread priority.
