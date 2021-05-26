@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.0b11**
+* arm64/vdso32: support integrated assembler and full clang build. Decreases output binary size considerably due to better linking decisions.
+* msm geni serial: revert recent backports creating BT memes.
+* arm64/dts: possibly decrease key latency.
+
 **v1.0b10**
 * toolchain bump (llvm master built today).
 * device mapper: backport optimizations. These should theoretically have the largest impact in recovery and fastboot.
