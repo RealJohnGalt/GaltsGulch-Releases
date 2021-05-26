@@ -1,5 +1,8 @@
 # Changelog
 
+**v1.0b12**
+* Merge upstream linux kernel 4.14.234.
+
 **v1.0b11**
 * arm64/vdso32: support integrated assembler and full clang build. Decreases output binary size considerably due to better linking decisions.
 * msm geni serial: revert recent backports creating BT memes.
