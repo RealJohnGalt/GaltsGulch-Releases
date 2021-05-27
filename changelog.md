@@ -1,5 +1,18 @@
 # Changelog
 
+**v1.0b13**
+* arm64/dts: revert key latency change. Some users reported single keypresses reported as two.
+* sched: two reverts with unintended consequences.
+* sched: backports.
+* treewide: some moves to interruptible waits.
+* PM: tweaks for better race to idle performance.
+* mm: backports and mark some perf critical kthreads for big cluster.
+* rcu: backports and mark some perf critical kthreads for big cluster.
+* config: enable rcu boost. This only occurs during preemption, in which scenarios we're latency sensitive.
+* kswapd: affine to little cluster for efficiency.
+* config: set little cluster rate limits same as prime for small power savings with no interactivity hit.
+* *OOS* fixup some display mode memes breaking ambient display or harming FOD performance.
+
 **v1.0b12**
 * Merge upstream linux kernel 4.14.234.
 
