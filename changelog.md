@@ -1,5 +1,13 @@
 # Changelog
 
+**v1.0b14**
+* kgsl: make mem workqueue freezable. freezing during no interactivity may benefit power.
+* media: use interruptible waits.
+* fs: reduce cache pressure in attempt to better utilize ram.
+* mm: wake kswapd sooner.
+* config: bump vmstat interval to 60s. It's far too costly to run every 20s.
+* wlan: merge LA.UM.9.14.r1-16700-LAHAINA.0 in wlan-related submodules.
+
 **v1.0b13**
 * arm64/dts: revert key latency change. Some users reported single keypresses reported as two.
 * sched: two reverts with unintended consequences.
