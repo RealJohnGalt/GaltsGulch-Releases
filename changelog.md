@@ -1,5 +1,19 @@
 # Changelog
 
+**v1.0b15**
+* gpu: bring back lower slot undervolt. This was in old releases for awhile, and there was never a convincing crash or soft reset reported from this.
+* treewide: resolve power regressions from b14.
+* f2fs: merge upstream f2fs stable.
+* Introduce support for affining perf kthreads and irq to specific big cores. Overall these changes improve jitter consistency.
+  * treewide: move non-latency sensitive, but perf sensitive worker-type kthreads to cpu4. For power efficiency.
+  * msm/kgsl: affine irq and worker kthread to cpu5.
+  * fs/exec: affine hardwarecomposer to cpu6.
+* block/loop: move kthread to prime due to low utilization but high latency sensitivity.
+* wlan: disable CxPC aware RTPM. While we support basic PM, we don't support this.
+* config: tune big cluster rate limits for better interactivity.
+* idle: more s2idle fixes.
+* adsprpc: revert unnecessary and problematic change. 
+
 **v1.0b14**
 * kgsl: make mem workqueue freezable. freezing during no interactivity may benefit power.
 * media: use interruptible waits.
