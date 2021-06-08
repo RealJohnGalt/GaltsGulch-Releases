@@ -1,5 +1,11 @@
 # Changelog
 
+**v1.0b16**
+* Merge upstream linux kernel 4.14.235.
+* Merge latest CAF tag for our device of LA.UM.9.1.r1-10200-SMxxx0.0.
+* Merge June ASB.
+* Partially revert big cluster rate tuning. We don't need the lower up rate, only the longer hold. For some usecases, this decreased battery life, and increased thermal mitigation hits.
+
 **v1.0b15**
 * gpu: bring back lower slot undervolt. This was in old releases for awhile, and there was never a convincing crash or soft reset reported from this.
 * treewide: resolve power regressions from b14.
