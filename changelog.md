@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.0b18**
+* Fix random reboots on shell (tty, from poad42).
+* wireguard: bring inline with mainline linux kernel (new changes from 4 days ago). Nice benefit is reduced memory usage, can be large in some scenarios.
+* wlan: switch all related submodules to LA.UM.9.1.r1-10200-SMxxx0.0. Should fix a relatively rare crashdump.
+
 **v1.0b16**
 * Merge upstream linux kernel 4.14.235.
 * Merge latest CAF tag for our device of LA.UM.9.1.r1-10200-SMxxx0.0.
