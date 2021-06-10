@@ -1,5 +1,15 @@
 # Changelog
 
+**v1.0b19**
+* Merge upstream linux kernel 4.14.236.
+* Fix CachedAppOptimizer access (permissions now inline with pissels).
+* Makefile: optimize for cortex-a76 on clang:
+  * On 50 scripted hackbench -l 10000 -T 8 runs, improved performance by 1.81%. Also results in more efficient output, with the uncompressed output binary size being reduced by 5.347%.
+  * Since nothing latency or performance sensitive is placed on little cluster anyway, the small little cluster efficiency gains from optimizing for cortex-a55 don't matter.
+* drm atomic: disable devfreq frame commit boosts on AOD: while obviously we're not pushing many frames on AOD, this is still unnecessary.
+* f2fs: fixup f2fs interface renaming for compatibility with DSU and OTA, while still blocking userspace from triggering GC.
+* char: switch to srandom, while retaining our previous change of using urandom for random fops if disabled (for proper testing).
+
 **v1.0b18**
 * Fix random reboots on shell (tty, from poad42).
 * wireguard: bring inline with mainline linux kernel (new changes from 4 days ago). Nice benefit is reduced memory usage, can be large in some scenarios.
