@@ -1,5 +1,11 @@
 # Changelog
 
+**v1.0b20**
+* Bump toolchain (llvm master built today).
+* Introduce devfreq-cpufreq governor.
+* Some minor backports.
+* Introduce and merge LA.UM.9.1.r1-10200-SMxxx0.0 of forgotten data-kernel for rmnet extensions. These help network performance and efficiency considerably.
+
 **v1.0b19**
 * Merge upstream linux kernel 4.14.236.
 * Fix CachedAppOptimizer access (permissions now inline with pissels).
