@@ -1,5 +1,16 @@
 # Changelog
 
+**v1.0b21**
+* Merge upstream linux kernel 4.14.237.
+* Bump toolchain (llvm master built today).
+* Implement workaround for new llvm master toolchain.
+* config: drop devfreq boost duration (like on new frame commits) from 64ms to 48ms. No regressions found in testing.
+* arm64/vdso32: use ld.lld to link. Previously this was the only part of our tree still using ld.bfd.
+* bpf jit: small performance optimization.
+* cpuidle: revert max s2idle attempts. In reality the only driver that occasionally needed this was alarmtimer, and created a regression.
+* block: disable io stats, enable write back caching (in testing, no regressions found).
+* gpu/kgsl: schedule perf worker thread as rr rather than fifo (in testing, no regressions found).
+
 **v1.0b20**
 * Bump toolchain (llvm master built today).
 * Introduce devfreq-cpufreq governor.
