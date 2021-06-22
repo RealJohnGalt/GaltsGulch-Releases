@@ -1,5 +1,16 @@
 # Changelog
 
+**v1.0b22**
+* Merge treewide (submodules incl) LA.UM.9.1.r1-10500-SMxxx0.QSSI12.0.
+* Merge upstream f2fs stable.
+* Bump toolchain (llvm master built today).
+* hid/nintendo: bring inline with upstream maintainer's git, enable force feedback support. Joycon double presses are a userspace issue and not present in all apps either.
+* gulch config: switch to 12ms PELT half life (from 24ms):
+  *  Since the per cluster rate limit tuning in schedutil, we no longer benefit from the longer decay. However the shorter ramp up does benefit us while profiling more interactive tasks.
+* gulch config: revert to 80hz timer rate from 240hz for better power efficiency.
+* Revert a hack no longer needed for a llvm master workaround.
+* *OOS BRANCH ONLY* Revert all CAF merges to resolve cam issues and potentially more.
+
 **v1.0b21**
 * Merge upstream linux kernel 4.14.237.
 * Bump toolchain (llvm master built today).
