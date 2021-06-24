@@ -1,5 +1,15 @@
 # Changelog
 
+**v1.0b23**
+* Bump toolchain (llvm master built today).
+* Minor treewide fixes and cleanups.
+* Kill schedutil rate limits entirely.
+* Drop some debugging.
+* panel/samsung oneplus: set 1440 dsc slice per packet to 4 (NOT IN OOS BRANCH).
+  * Theoretically the max before we should see an increase in frame times. Since 1440 needs dsc compression, attempt to lessen the overall cost.
+* Simple LMK: drop minfree to 128.
+* drm/msm: some arter97 optimizations.
+
 **v1.0b22**
 * Merge treewide (submodules incl) LA.UM.9.1.r1-10500-SMxxx0.QSSI12.0.
 * Merge upstream f2fs stable.
