@@ -1,5 +1,14 @@
 # Changelog
 
+**v1.0b24**
+* Bump toolchain (llvm master built today).
+* Fix a crashdump.
+* input/touchscreen: increase sensitivity, decrease latency.
+* block: enable and tune throttling.
+* various other small optimizations.
+* qcacld-3.0: kill remaining wakelock code.
+* drivers/gpu/drm/msm: kill sde tracing entirely.
+
 **v1.0b23**
 * Bump toolchain (llvm master built today).
 * Minor treewide fixes and cleanups.
