@@ -1,5 +1,14 @@
 # Changelog
 
+**v1.0b25**
+* Bump toolchain (llvm master built today).
+* Fix camera issue introduced for some users in b24.
+* Some wakeup/suspend/idle fixes.
+* lz4: backports.
+* fqcodel: backports.
+* optimization: selectively use Ofast in some spots that can measurably benefit.
+* input/touchscreen: revert changes in b24.
+
 **v1.0b24**
 * Bump toolchain (llvm master built today).
 * Fix a crashdump.
