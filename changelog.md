@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.0b26**
+* Bump toolchain (llvm master built today).
+* Fingerprint on Display: boost devfreq and prime core on press.
+* cgroup: boost devfreq for a short time on top app change.
+
 **v1.0b25**
 * Bump toolchain (llvm master built today).
 * Fix camera issue introduced for some users in b24.
