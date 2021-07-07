@@ -1,5 +1,17 @@
 # Changelog
 
+**v1.0b27**
+* Bump toolchain (llvm master built today).
+* Merge upstream linux kernel 4.14.238.
+* Merge upstream android-4.14-stable.
+* Merge upstream f2fs-stable.
+* Revert 1440p dsc slice change: On some trees (roms) lesser than yaap, this caused crashdumps on 1440p devices.
+* Bring in and enable playstation dualsense support + force feedback.
+* simple lmk: Attempt to improve UX with memory pressure and display state awareness, also support OP AOD.
+* mm/vmpressure: kerneltoast change for simple lmk.
+* sched: backports and performance optimizations.
+* ion: some backports and enable pool auto refill.
+
 **v1.0b26**
 * Bump toolchain (llvm master built today).
 * Fingerprint on Display: boost devfreq and prime core on press.
