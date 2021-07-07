@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.0b28**
+* treewide: remove OnePlus SSR additions and dependencies. Additionally fully kill crashdump mode. In initial OP import, it was thought these additions were necessary. Also decreases boot time.
+* Merge new CAF tag LA.UM.9.1.r1-10600-SMxxx0.0 into kernel and submodules.
+* treewide: move some modules to Ofast optimization level which show benefits in benchmarks. None have FP arithmetic so generally considered "safe."
+
 **v1.0b27**
 * Bump toolchain (llvm master built today).
 * Merge upstream linux kernel 4.14.238.
