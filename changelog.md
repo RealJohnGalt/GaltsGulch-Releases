@@ -1,5 +1,11 @@
 # Changelog
 
+**v1.0b29**
+* Bump toolchain (llvm master built today).
+* Revert two memory related changes.
+* Add automatic compaction and enable zram.
+* Ion reverts for graphical glitches introduced in b27.
+
 **v1.0b28**
 * treewide: remove OnePlus SSR additions and dependencies. Additionally fully kill crashdump mode. In initial OP import, it was thought these additions were necessary. Also decreases boot time.
 * Merge new CAF tag LA.UM.9.1.r1-10600-SMxxx0.0 into kernel and submodules.
