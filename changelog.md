@@ -1,5 +1,12 @@
 # Changelog
 
+**v1.0b30**
+* Bump toolchain (llvm master built today).
+* Merge upstream linux kernel 4.14.239.
+* mm: a few improvements for simple LMK.
+* Move a few more workqueues to power efficient workqueues (we've had enabled since initial release).
+* config: drop simple lmk timeout to 100ms. In testing, 200 ms is too high for a good UX.
+
 **v1.0b29**
 * Bump toolchain (llvm master built today).
 * Revert two memory related changes.

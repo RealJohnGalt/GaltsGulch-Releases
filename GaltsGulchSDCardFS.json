@@ -1,11 +1,11 @@
 {
   "kernel": {
     "name": "GaltsGulch",
-    "version": "v1.0b29",
-    "link": "https://github.com/RealJohnGalt/GaltsGulch-Releases/raw/op7/GaltsGulchR.v1.0-b29-sdcardfs.zip",
+    "version": "v1.0b30",
+    "link": "https://github.com/RealJohnGalt/GaltsGulch-Releases/raw/op7/GaltsGulchR.v1.0-b30-sdcardfs.zip",
     "changelog_url": "https://raw.githubusercontent.com/RealJohnGalt/GaltsGulch-Releases/op7/changelog.md",
-    "date": "2021-07-09",
-    "sha1": "e92e76c4bc368078528008b4b1856ed0705d803e"
+    "date": "2021-07-12",
+    "sha1": "c32f677369803faa0122e17d5e7e9d9c33b8d0fa"
   },
   "support": {
     "link": "https://t.me/GaltsGulchAndroid"
