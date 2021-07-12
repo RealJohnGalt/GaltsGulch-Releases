@@ -3,7 +3,7 @@
 **v1.0b31**
 * Long-awaited fix for cam issue on derp and other roms. One user also had reported on YAAP.
 * Revert zram.
-* cpusets: restructure for jank, since cpu5 is our perf worker type core.
+* cpusets: restructure for jank, since cpu4 is our perf worker type core.
 * cpuset/uclamp assist: expand/tune.
 
 **v1.0b30**
