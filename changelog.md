@@ -1,5 +1,15 @@
 # Changelog
 
+**v1.0b32**
+* Bump toolchain (llvm master built today).
+* gpu: revert lower slot gpu undervolt. Some users have instabilities and then crashes because of this change. For anyone else, KonaBess exists.
+* cpu frequency table: add back 576mhz for little cluster.
+* cpu frequency table: add back 2016mhz, 1804mhz, and 14976mhz on prime.
+* cpufreq schedutil: Port changes around prioritizing per-cluster efficient frequencies from msm-4.19 schedhorizon by xzr467706992.
+* config: bring back zram + swap. There are a lot of scenarios where it helps (unless you're a derp guac user), and not like we're swapping like crazy in this configuration anyway.
+* config: re enable slub cpu partial due to regressions.
+* proc/cmdline: bring back safetynet hacks. Unfortunately it seems some apps care even with the system/core implementation.
+
 **v1.0b31**
 * Long-awaited fix for cam issue on derp and other roms. One user also had reported on YAAP.
 * Revert zram.
