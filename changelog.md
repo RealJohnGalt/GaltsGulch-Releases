@@ -1,5 +1,8 @@
 # Changelog
 
+**v1.0b33**
+* Bugfix release: revert zram.
+
 **v1.0b32**
 * Bump toolchain (llvm master built today).
 * gpu: revert lower slot gpu undervolt. Some users have instabilities and then crashes because of this change. For anyone else, KonaBess exists.
