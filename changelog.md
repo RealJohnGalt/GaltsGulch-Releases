@@ -1,5 +1,13 @@
 # Changelog
 
+**v1.0b34**
+* Bump toolchain (llvm master built today).
+* Massively improve power consumption and jank. There are a lot of changes, but just summarizing. If interested, you can always check github. b32 had definitely regressed quite a bit as well.
+* Bring back RCU expedited: Fix camera issues for users/roms affected, and also bring back OOS support. Found from OP8P having a similar issue.
+* Bring back zram since cam issue is now properly fixed.
+* OOS ONLY bump SLMK minfree to 256M.
+* Disable some debugging and wakelock code.
+
 **v1.0b33**
 * Bugfix release: revert zram.
 
