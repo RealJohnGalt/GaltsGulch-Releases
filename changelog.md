@@ -1,5 +1,11 @@
 # Changelog
 
+**v1.0b35**
+* Bump toolchain (llvm master built today).
+* mm: backports.
+* binder: backports.
+* simple lmk: resolve recent regressions.
+
 **v1.0b34**
 * Bump toolchain (llvm master built today).
 * Massively improve power consumption and jank. There are a lot of changes, but just summarizing. If interested, you can always check github. b32 had definitely regressed quite a bit as well.
