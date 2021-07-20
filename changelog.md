@@ -1,5 +1,11 @@
 # Changelog
 
+**v1.0b36**
+* Further tune schedhorizon import tunables based on scripted observations.
+* mm: many more backports and tweaks. Also switch zram to lz4 and optimize a bit.
+* input/touchscreen: more rice.
+* temporarily downgrade toolchain due to upstream llvm master issue.
+
 **v1.0b35**
 * Bump toolchain (llvm master built today).
 * mm: backports.
