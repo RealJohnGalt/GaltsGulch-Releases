@@ -1,5 +1,8 @@
 # Changelog
 
+**v1.0b37**
+* Merge upstream linux kernel 4.14.240.
+
 **v1.0b36**
 * Further tune schedhorizon import tunables based on scripted observations.
 * mm: many more backports and tweaks. Also switch zram to lz4 and optimize a bit.
