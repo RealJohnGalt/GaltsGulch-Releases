@@ -1,5 +1,14 @@
 # Changelog
 
+**v1.0b38**
+* ion: Reduce likelihood of critical load freeing workers.
+* Makefile: further optimize LTO configuration.
+* config: disable rcu boost due to bringing back rcu expedited.
+* cpufreq schedutil: further tune based on scripted observations -- resolves performance regression.
+* config: open top app back up to prime -- resolves performance regression.
+* dsi-staging: pissel optimizations.
+* gpu/adrenotz: bring back util change for 90hz.
+
 **v1.0b37**
 * Merge upstream linux kernel 4.14.240.
 
