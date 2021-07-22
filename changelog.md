@@ -1,5 +1,8 @@
 # Changelog
 
+**v1.0b40**
+* Merge latest CAF tag for our device of LA.UM.9.1.r1-10700-SMxxx0.QSSI12.0 treewide.
+
 **v1.0b39**
 * Bump toolchain (llvm master built today).
 * Fresh kernel init fix for llvm master builds, by Nathan Chancellor.
