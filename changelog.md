@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.0b39**
+* Bump toolchain (llvm master built today).
+* Fresh kernel init fix for llvm master builds, by Nathan Chancellor.
+* A few reverts for bugfixes.
+
 **v1.0b38**
 * ion: Reduce likelihood of critical load freeing workers.
 * Makefile: further optimize LTO configuration.
