@@ -1,5 +1,11 @@
 # Changelog
 
+**v1.0b41**
+* Bump toolchain (llvm master built today).
+* Crypto backports of security fixes and optimizations.
+* Further tune freqs and schedutil for performance and efficiency.
+* Revert s2idle to potentially help with some users dt2w issues.
+
 **v1.0b40**
 * Merge latest CAF tag for our device of LA.UM.9.1.r1-10700-SMxxx0.QSSI12.0 treewide.
 
