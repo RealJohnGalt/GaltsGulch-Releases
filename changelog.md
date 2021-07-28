@@ -1,5 +1,8 @@
 # Changelog
 
+**v1.0b43**
+* Bugfix release + misc changes.
+
 **v1.0b42**
 * Bump toolchain (llvm master built today).
 * Merge upstream linux kernel 4.14.241.
