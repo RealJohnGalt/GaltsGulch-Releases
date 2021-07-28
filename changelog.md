@@ -1,5 +1,15 @@
 # Changelog
 
+**v1.0b42**
+* Bump toolchain (llvm master built today).
+* Merge upstream linux kernel 4.14.241.
+* config: completely revisit/clean up.
+* Bring back s2idle.
+* Resolve reported wlan instability from LA.UM.9.1.r1-10700-SMxxx0.QSSI12.0 merge.
+* net/qrtr: reverts for something spammy and causing suspend/wakeup issues.
+* drivers/usb: backport to potentially fix wired android auto (as of now unknown).
+* Various tweaks/optimizations/backports.
+
 **v1.0b41**
 * Bump toolchain (llvm master built today).
 * Crypto backports of security fixes and optimizations.
