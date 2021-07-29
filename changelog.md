@@ -1,5 +1,9 @@
 # Changelog
 
+**v1.0b44**
+* Bump toolchain (llvm master built today).
+* Regressions resolved -- thanks z2.
+
 **v1.0b43**
 * Bugfix release + misc changes.
 
