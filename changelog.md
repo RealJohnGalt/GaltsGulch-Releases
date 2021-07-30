@@ -1,5 +1,9 @@
 # Changelog
 
+**v1.0b45**
+* Bump toolchain (llvm master built today).
+* mm: revert recent backports for sake of stability.
+
 **v1.0b44**
 * Bump toolchain (llvm master built today).
 * Regressions resolved -- thanks z2.
