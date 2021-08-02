@@ -1,5 +1,11 @@
 # Changelog
 
+**v1.0b46**
+* Bump toolchain (llvm master built today).
+* fix ui duration regression.
+* config: minor changes for better frequency selection.
+* pm/sleep: revert s2idle and some other changes.
+
 **v1.0b45**
 * Bump toolchain (llvm master built today).
 * mm: revert recent backports for sake of stability.
