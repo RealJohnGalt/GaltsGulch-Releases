@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.0b47**
+* Bump toolchain (llvm master built today).
+* touchscreen: kill some pm qos usage. Reportedly the dt2w dying issue some users faced is resolved.
+* schedutil: Further optimize big/prime for efficiency. In a scripted test scenario, UI-driven prime 2.8ghz usage dropped around 20%.
+
 **v1.0b46**
 * Bump toolchain (llvm master built today).
 * fix ui duration regression.
