@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.0b48**
+* Bump toolchain (llvm master built today).
+* Merge upstream linux kernel 4.14.242.
+* schedutil: further tune big cluster for better top app interactivity.
+
 **v1.0b47**
 * Bump toolchain (llvm master built today).
 * touchscreen: kill some pm qos usage. Reportedly the dt2w dying issue some users faced is resolved.
