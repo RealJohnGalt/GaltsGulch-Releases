@@ -1,5 +1,11 @@
 # Changelog
 
+**v1.0b49**
+* Bump toolchain (llvm master built today).
+* config: disable zram + swap.
+* kgsl: backport a few fixes.
+* kgsl: only affine perf sensitive irq to cpu4, so balancing doesn't occur with all kgsl irq.
+
 **v1.0b48**
 * Bump toolchain (llvm master built today).
 * Merge upstream linux kernel 4.14.242.
