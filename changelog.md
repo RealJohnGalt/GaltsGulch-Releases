@@ -1,5 +1,11 @@
 # Changelog
 
+**v1.0b50**
+* Bump toolchain (llvm master built today).
+* Fixup stability issue, bring back zram + swap.
+* Merge upstream linux kernel 4.14.243.
+* Merge latest CAF tag LA.UM.9.1.r1-10900-SMxxx0.0 treewide.
+
 **v1.0b49**
 * Bump toolchain (llvm master built today).
 * config: disable zram + swap.
