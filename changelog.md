@@ -1,5 +1,12 @@
 # Changelog
 
+**v1.0b51**
+* Bump toolchain (llvm master built today).
+* sched: fixes.
+* Properly understand prime has higher capacity than big cores.
+* Remove legacy patches for s2idle that have consequences and are no longer needed.
+* Minor cleanups.
+
 **v1.0b50**
 * Bump toolchain (llvm master built today).
 * Fixup stability issue, bring back zram + swap.
