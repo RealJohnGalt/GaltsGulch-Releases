@@ -1,5 +1,8 @@
 # Changelog
 
+**v1.0**
+* Fix wired Android Auto. Huge thanks to SaintZ for testing.
+
 **v1.0b52**
 * Bump toolchain (llvm master built today).
 * zram: slightly increase size, bring in some arter97 rice, enable zswap.
