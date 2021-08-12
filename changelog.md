@@ -1,5 +1,14 @@
 # Changelog
 
+**v1.0b52**
+* Bump toolchain (llvm master built today).
+* zram: slightly increase size, bring in some arter97 rice, enable zswap.
+* f2fs: init later for rapid gc to be display state aware.
+* config: bring back minimal cpu input boosting. Also correct mistake with prime value.
+* drm frame commit boosting: stop boosting after 3s of interaction. To the uibench viewers, this means 3s after interaction you will see jitter go out of control. Benefits power and some different usecases.
+* bdi: revert an upstream change introduced in 4.14.240 that was causing suspend hangs.
+* simple lmk: new upstream kerneltoast/sultanxda change.
+
 **v1.0b51**
 * Bump toolchain (llvm master built today).
 * sched: fixes.
