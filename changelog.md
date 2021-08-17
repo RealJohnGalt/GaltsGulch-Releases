@@ -1,7 +1,21 @@
 # Changelog
 
+**v1.1**
+* Bump toolchain (llvm master built today).
+* Merge upstream linux kernel 4.14.244.
+* gpu: Implement new bus table for 257mhz, 345mhz, 427mhz which offers the same results as the previous kerneltoast 1.5x util change for 90hz. This has a lessened power cost compared to the previous change, but is just as buttery.
+* mm: bring back many backports, some new.
+* rcu: backports.
+* kernel/sched: compatibility walt dummy sysfs interfaces.
+* config: minor cleanup.
+* schedutil: drop schedhorizon changes due to impact on capacities.
+* tcp: latency consistency improvement for some tasks.
+* qcom/smp2p: drop some changes to possibly improve dt2w situation for some custom rom users.
+* touchscreen: improve pm qos usage.
+
+
 **v1.0**
-* Fix wired Android Auto. Huge thanks to SaintZ for testing.
+* Fix wired Android Auto. Huge thanks to SaintZ for testing and bisecting.
 
 **v1.0b52**
 * Bump toolchain (llvm master built today).
