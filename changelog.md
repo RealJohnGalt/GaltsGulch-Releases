@@ -1,5 +1,15 @@
 # Changelog
 
+**v1.2**
+* Bump toolchain (llvm master built today).
+* Merge LA.UM.9.1.r1-10900.02-SMxxx0.QSSI12.0.
+* Merge f2fs-stable.
+* block: fix a reported crash by Saitama (thanks for usable last kmsg).
+* cfi: inline with upstream linux kernel, rather than older android patches.
+* loop: backports.
+* sde: some arter rice.
+* power: bring back wakelock timeouts.
+
 **v1.1**
 * Bump toolchain (llvm master built today).
 * Merge upstream linux kernel 4.14.244.
@@ -12,7 +22,6 @@
 * tcp: latency consistency improvement for some tasks.
 * qcom/smp2p: drop some changes to possibly improve dt2w situation for some custom rom users.
 * touchscreen: improve pm qos usage.
-
 
 **v1.0**
 * Fix wired Android Auto. Huge thanks to SaintZ for testing and bisecting.
