@@ -1,5 +1,8 @@
 # Changelog
 
+**v1.2.1**
+* Bugfix for legacy sdcardfs roms.
+
 **v1.2**
 * Bump toolchain (llvm master built today).
 * Merge LA.UM.9.1.r1-10900.02-SMxxx0.QSSI12.0.
