@@ -1,7 +1,10 @@
 # Changelog
 
-**v1.2.1**
-* Bugfix for legacy sdcardfs roms.
+**v1.3**
+* Bump toolchain (llvm master built yesterday).
+* dts: further tune big cluster frequencies for effiency.
+* sched/core and cpuidle: new kerneltoast (sultanxda) rice.
+* dts: battery: tweak curve to be more linear (kdrag0n).
 
 **v1.2**
 * Bump toolchain (llvm master built today).
