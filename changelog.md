@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.4**
+* Bump toolchain (llvm master built today).
+* OOS branch only: revert battery curve change.
+* Miscellaneous.
+
 **v1.3**
 * Bump toolchain (llvm master built yesterday).
 * dts: further tune big cluster frequencies for effiency.
