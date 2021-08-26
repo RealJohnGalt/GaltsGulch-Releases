@@ -1,5 +1,9 @@
 # Changelog
 
+**v1.5**
+* Bump toolchain (llvm master built today).
+* Merge linux kernel 4.14.245.
+
 **v1.4**
 * Bump toolchain (llvm master built today).
 * OOS branch only: revert battery curve change.
