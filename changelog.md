@@ -1,5 +1,14 @@
 # Changelog
 
+**v1.6**
+* Bump toolchain (llvm master built today).
+* sched: fixes/improvements.
+* random: initialize earlier.
+* devfreq: increase polling rate.
+* drm atomic boosting: disable cpu boosting after 3s of inactivity.
+* misc fixes.
+* OOS: fixup merge mistake from v1.3 and newer.
+
 **v1.5**
 * Bump toolchain (llvm master built today).
 * Merge linux kernel 4.14.245.
