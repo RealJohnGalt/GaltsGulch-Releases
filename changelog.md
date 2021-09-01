@@ -1,5 +1,12 @@
 # Changelog
 
+**v1.7**
+* Bump toolchain (llvm master built today).
+* Merge LA.UM.9.1.r1-11100-SMxxx0.0 treewide (all submodules incl).
+* thermal config: forgotten update for big cluster change. Thanks kondors1995. 
+* sched: more fixes/improvements.
+* proc: small optimization.
+
 **v1.6**
 * Bump toolchain (llvm master built today).
 * sched: fixes/improvements.
