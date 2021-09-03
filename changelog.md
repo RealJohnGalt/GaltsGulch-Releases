@@ -1,5 +1,11 @@
 # Changelog
 
+**v1.8**
+* Bump toolchain (llvm master built today).
+* Merge upstream linux kernel 4.14.246.
+* Some small optimizations.
+* config: disable cpu input boosting entirely. While it did help some scenarios in time to completion, it also added some jank to others.
+
 **v1.7**
 * Bump toolchain (llvm master built today).
 * Merge LA.UM.9.1.r1-11100-SMxxx0.0 treewide (all submodules incl).
