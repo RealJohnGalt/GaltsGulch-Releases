@@ -1,5 +1,14 @@
 # Changelog
 
+**v1.9**
+* Bump toolchain (llvm master built today).
+* FOD: optimizations by mvaisakh.
+* net: bbrv2 backports and basic westwood tuning.
+* sched: global uclamp tuning.
+* config: cpuset update for performance and efficiency.
+* dts/sm8150-v2: bump big cluster min for efficiency.
+* optimization: compare against gcc lto build, inline just as aggressively.
+
 **v1.8**
 * Bump toolchain (llvm master built today).
 * Merge upstream linux kernel 4.14.246.
