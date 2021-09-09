@@ -1,11 +1,11 @@
 {
   "kernel": {
     "name": "GaltsGulch",
-    "version": "v1.10",
-    "link": "https://github.com/RealJohnGalt/GaltsGulch-Releases/raw/op7/GaltsGulchR.v1.10.zip",
+    "version": "v1.10.1",
+    "link": "https://github.com/RealJohnGalt/GaltsGulch-Releases/raw/op7/GaltsGulchR.v1.10.1.zip",
     "changelog_url": "https://raw.githubusercontent.com/RealJohnGalt/GaltsGulch-Releases/op7/changelog.md",
     "date": "2021-09-09",
-    "sha1": "dd1ab9d1291b3dca5ba159da243a3b93008fad37"
+    "sha1": "b31fddf4a5fd314076936c0e4e8ea2aa1c895bdd"
   },
   "support": {
     "link": "https://t.me/GaltsGulchAndroid"
