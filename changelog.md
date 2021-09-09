@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.10**
+* Bump toolchain (llvm master built today).
+* Power efficiency improvements.
+* Misc.
+
 **v1.9**
 * Bump toolchain (llvm master built today).
 * FOD: optimizations by mvaisakh.
