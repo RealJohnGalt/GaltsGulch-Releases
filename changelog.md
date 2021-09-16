@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.11**
+* Bump toolchain (llvm master built today).
+* Merge LA.UM.9.1.r1-11100.01-SMxxx0.QSSI12.0.
+* Misc.
+
 **v1.10**
 * Bump toolchain (llvm master built today).
 * Power efficiency improvements.
