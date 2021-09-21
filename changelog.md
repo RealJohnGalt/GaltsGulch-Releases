@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.12**
+* Bump toolchain (llvm master built today).
+* simple lmk: new sultanxda/kerneltoast changes.
+* zram: backports.
+
 **v1.11**
 * Bump toolchain (llvm master built today).
 * Merge LA.UM.9.1.r1-11100.01-SMxxx0.QSSI12.0.
