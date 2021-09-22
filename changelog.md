@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.13**
+* Bump toolchain (llvm master built today).
+* alarmtimer: revert wakelock change that caused reported crash.
+* OOS: override OP change to background task nice.
+
 **v1.12**
 * Bump toolchain (llvm master built today).
 * simple lmk: new sultanxda/kerneltoast changes.
