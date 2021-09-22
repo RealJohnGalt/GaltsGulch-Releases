@@ -2,6 +2,7 @@
 
 **v1.13**
 * Bump toolchain (llvm master built today).
+* Merge upstream linux kernel 4.14.247.
 * alarmtimer: revert wakelock change that caused reported crash.
 * OOS: override OP change to background task nice.
 
