@@ -1,5 +1,13 @@
 # Changelog
 
+**v1.14**
+* Bump toolchain (llvm master built today).
+* Merge upstream linux kernel 4.14.248.
+* thermal: small tweaks.
+* config: tweaks for interactivity and power efficiency.
+* sched: backports.
+* ThinLTO: optimize until no PTS linker bench gains shown.
+
 **v1.13**
 * Bump toolchain (llvm master built today).
 * Merge upstream linux kernel 4.14.247.
