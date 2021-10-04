@@ -2,6 +2,12 @@
 
 **v1.14**
 * Bump toolchain (llvm master built today).
+* Merge new CAF tag LA.UM.9.1.r1-11200-SMxxx0.0 treewide.
+* boosting: remove fod and some other boosting for stability.
+* Misc.
+
+**v1.14**
+* Bump toolchain (llvm master built today).
 * Merge upstream linux kernel 4.14.248.
 * thermal: small tweaks.
 * config: tweaks for interactivity and power efficiency.
