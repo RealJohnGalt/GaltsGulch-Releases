@@ -1,6 +1,12 @@
 # Changelog
 
-**v1.14**
+**v1.16**
+* Bump toolchain (llvm master built today).
+* Merge upstream linux kernel 4.14.250.
+* Idle crash fix (from v1.16a1).
+* Backport UFS TW support, and force enable. 
+
+**v1.15**
 * Bump toolchain (llvm master built today).
 * Merge new CAF tag LA.UM.9.1.r1-11200-SMxxx0.0 treewide.
 * boosting: remove fod and some other boosting for stability.
