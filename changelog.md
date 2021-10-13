@@ -1,5 +1,9 @@
 # Changelog
 
+**v1.17**
+* Bump toolchain (llvm master built today).
+* Another crash bugfix.
+
 **v1.16**
 * Bump toolchain (llvm master built today).
 * Merge upstream linux kernel 4.14.250.
