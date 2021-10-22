@@ -1,5 +1,11 @@
 # Changelog
 
+**v1.19**
+* Bump toolchain (llvm master built today).
+* Another crash bugfix.
+* Android 12: fix for fod on hotdogb (backward and guacamole compatible).
+* sultanxda optimizations.
+
 **v1.17**
 * Bump toolchain (llvm master built today).
 * Another crash bugfix.
