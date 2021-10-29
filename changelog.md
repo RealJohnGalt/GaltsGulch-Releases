@@ -1,5 +1,10 @@
 # Changelog
 
+**v1.21**
+* Bump toolchain (llvm master built today).
+* Merge upstream linux kernel 4.14.253.
+* Improve latency and overall jitter.
+
 **v1.19**
 * Bump toolchain (llvm master built today).
 * Another crash bugfix.
