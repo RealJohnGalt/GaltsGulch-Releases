@@ -1,5 +1,13 @@
 # Changelog
 
+**v1.22**
+* Bump toolchain (llvm master built today).
+* Fix guacamole issues and instability with magisk and twrp.
+* Fix a possible memchr crash.
+* Enable userspace wakelock GC.
+* Revert UFS TW for now until HPB is brought up.
+* Various other improvements and optimizations.
+
 **v1.21**
 * Bump toolchain (llvm master built today).
 * Merge upstream linux kernel 4.14.253.
