@@ -1,5 +1,15 @@
 # Changelog
 
+**v1.23**
+* Bump toolchain (llvm master built today).
+* Merge upstream linux 4.14.254.
+* dsi-staging: backports.
+* misc power improvement.
+* qcacld-3.0: less debugging/bloat.
+* surfaceflinger: resolve possible issue on Android 12 where surfaceflinger can now contend with itself.
+* usb: support disabling new usb devices.
+* misc.
+
 **v1.22**
 * Bump toolchain (llvm master built today).
 * Fix guacamole issues and instability with magisk and twrp.
