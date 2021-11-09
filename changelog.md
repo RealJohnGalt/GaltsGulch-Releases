@@ -1,5 +1,13 @@
 # Changelog
 
+**v1.24**
+* Bump toolchain (llvm master built today).
+* uclamp assist: update group tuning for power efficiency and performance, revert old hack.
+* Fix a12 game multitasking lag (posted in previous test release).
+* Revert a gpu bus change from August after signs point to it causing idle instabilities for some devices.
+* Revert an old CAF change that can cause wakeup hangs on FOD from AOD on roms with mode set/restore.
+* Improve a12 FOD behavior.
+
 **v1.23**
 * Bump toolchain (llvm master built today).
 * Merge upstream linux 4.14.254.
